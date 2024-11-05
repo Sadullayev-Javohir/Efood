@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EFood</title>
+        <!-- fontawesome link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- google fonts link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- css link -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- favicon link -->
+        <link rel="shortcut icon" href="./image/cheesburger.png">
+    </head>
+    <body>
+        <!-- load -->
+        <div id="load"></div>
+        <!-- header -->
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <a href="#" class="logo">
+                        <h1 title="EFood">
+                            <span>E</span>
+                            Food
+                        </h1>
+                    </a>
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="fa-solid fa-bars" id="menu" title="menu"></i>
+                        <i class="fa-solid fa-xmark" id="cancel" title="cancel"></i>
+                    </label>
+                    <ul>
+                        <li title="Home">
+                            <a href="#">Home</a>
+                        </li>
+                        <li title="Service">
+                            <a href="#">Service</a>
+                        </li>
+                        <li title="Top cities">
+                            <a href="#">Top cities</a>
+                        </li>
+                        <li title="Contact">
+                            <a href="#">Contact</a>
+                        </li>
+                        <div class="header-icon-ul">
+                            <i class="fa-solid fa-magnifying-glass" title="search"></i>
+                            <i class="fa-solid fa-cart-shopping" id="cart" title="cart">
+                                <span>4</span>
+                            </i>
+                            <button title="Sign Up">Sign Up</button>
+                        </div>
+                    </ul>
+                    <div class="header-icon">
+                        <i class="fa-solid fa-magnifying-glass" title="search"></i>
+                        <i class="fa-solid fa-cart-shopping" id="cart" title="cart">
+                            <span>4</span>
+                        </i>
+                        <button title="Sign Up">Sign Up</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- home -->
+        <div class="home">
+            <div class="container">
+                <div class="home-half">
+                    <div class="home-left">
+                        <h1>
+                            super fast <span>Food delivery</span>
+                            service
+                        </h1>
+                        <p>We provide super fast-delivery service. Let’s use our services right now and get discounts of up to 50%</p>
+                        <div class="home-button">
+                            <button title="Explore Food">Explore Food</button>
+                            <button title="Download App">Download App</button>
+                        </div>
+                    </div>
+                    <div class="home-right">
+                        <img src="./image/Scooter.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- category -->
+        <div class="category">
+            <div class="container">
+                <h1>
+                    Our popular <span>Category</span>
+                </h1>
+                <div class="menu-column">
+                    <div class="menu-col menu-col-1" title="Burger">
+                        <img src="./image/burger.png" alt="">
+                        <h4>Burger</h4>
+                    </div>
+                    <div class="menu-col menu-col-2" title="Pizza">
+                        <img src="./image/pizza.png" alt="">
+                        <h4>Pizza</h4>
+                    </div>
+                    <div class="menu-col" title="Sandwich">
+                        <img src="./image/sandwich.png" alt="">
+                        <h4>Sandwich</h4>
+                    </div>
+                    <div class="menu-col" title="Asian Food">
+                        <img src="./image/eFood.png" alt="">
+                        <h4>Asian Food</h4>
+                    </div>
+                    <div class="menu-col" title="Set Menu">
+                        <img src="./image/set menu.png" alt="">
+                        <h4>Set Menu</h4>
+                    </div>
+                </div>
+                <div class="category-column">
+                    <div class="category-col">
+                        <img src="./image/salad.png" alt="">
+                        <div class="category-col-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h6>Cheeseburger With Salad</h6>
+                        <h5>$18.00</h5>
+                        <button title="Add to Cart">Add to Cart</button>
+                    </div>
+                    <div class="category-col category-col-2">
+                        <img src="./image/Beef Burger.png" alt="">
+                        <div class="category-col-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h6>Beef Burger</h6>
+                        <h5>$15.00</h5>
+                        <button title="Add to Cart">Add to Cart</button>
+                    </div>
+                    <div class="category-col">
+                        <img src="./image/cheesburger.png" alt="">
+                        <div class="category-col-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h6>Royel Cheeseburger</h6>
+                        <h5>$16.00</h5>
+                        <button title="Add to Cart">Add to Cart</button>
+                    </div>
+                    <div class="category-col">
+                        <img src="./image/black_burger.png" alt="">
+                        <div class="category-col-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h6>Black Burger</h6>
+                        <h5>$14.00</h5>
+                        <button title="Add to Cart">Add to Cart</button>
+                    </div>
+                    <div class="category-col">
+                        <img src="./image/chicken_burger.png" alt="">
+                        <div class="category-col-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h6>Chicken Burger</h6>
+                        <h5>$15.00</h5>
+                        <button title="Add to Cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- good food -->
+        <div class="good_food">
+            <div class="container">
+                <div class="good_food-half">
+                    <div class="good_food-left">
+                        <img src="./image/good_food.png" alt="">
+                    </div>
+                    <div class="good_food-right">
+                        <h1>
+                            <span>Stay</span>
+                            at home, we will Provide <span>good food</span>
+                        </h1>
+                        <p>We provide tasty food and superfast delivery at your home.  Let’s use our services right now and get discounts of up to 50%.</p>
+                        <div class="good_food-column">
+                            <div class="good_food-col">
+                                <div class="good_food-col-img">
+                                    <img src="./image/hour.png" alt="">
+                                    <div class="good_food-col-img-2">
+                                        <img src="./image/hour-background.png" alt="">
+                                    </div>
+                                </div>
+                                <h4>fasted delivery in 30 Minutes</h4>
+                            </div>
+                            <div class="good_food-col">
+                                <div class="good_food-col-img">
+                                    <img src="./image/Men.png" alt="">
+                                    <div class="good_food-col-img-2">
+                                        <img src="./image/men-background.png" alt="">
+                                    </div>
+                                </div>
+                                <h4>300+ delivery men</h4>
+                            </div>
+                            <div class="good_food-col">
+                                <div class="good_food-col-img">
+                                    <img src="./image/shop.png" alt="">
+                                    <div class="good_food-col-img-2">
+                                        <img src="./image/shop-background.png" alt="">
+                                    </div>
+                                </div>
+                                <h4>500+ restaurant & cafe shop</h4>
+                            </div>
+                        </div>
+                        <button title="See more">See more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- restaraunt -->
+        <div class="restaraunt">
+            <div class="container">
+                <h1>
+                    Top Food <span>restaurant</span>
+                </h1>
+                <div class="restaraunt-column">
+                    <div class="restaraunt-col">
+                        <img src="./image/restaraunt-col-1.png" alt="">
+                        <div class="restaraunt-col-text">
+                            <h2>Blaze Pizza</h2>
+                            <div class="flex">
+                                <i class="fa-solid fa-hourglass-start"></i>
+                                <a href="#">11.00 AM - 10.00 PM</a>
+                                <button>
+                                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaraunt-col">
+                        <img src="./image/restaraunt-col-2.png" alt="">
+                        <div class="restaraunt-col-text">
+                            <h2>Pizza Panch</h2>
+                            <div class="flex">
+                                <i class="fa-solid fa-hourglass-start"></i>
+                                <a href="#">09.00 AM - 10.00 PM</a>
+                                <button>
+                                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaraunt-col">
+                        <img src="./image/restaraunt-col-3.png" alt="">
+                        <div class="restaraunt-col-text">
+                            <h2>Dion’s Pizza Hut</h2>
+                            <div class="flex">
+                                <i class="fa-solid fa-hourglass-start"></i>
+                                <a href="#">11.00 AM - 12.00 PM</a>
+                                <button>
+                                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaraunt-column">
+                    <div class="restaraunt-col">
+                        <img src="./image/restaraunt-col-4.png" alt="">
+                        <div class="restaraunt-col-text">
+                            <h2>Royel Burger</h2>
+                            <div class="flex">
+                                <i class="fa-solid fa-hourglass-start"></i>
+                                <a href="#">11.00 AM - 10.00 PM</a>
+                                <button>
+                                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaraunt-col">
+                        <img src="./image/restaraunt-col-5.png" alt="">
+                        <div class="restaraunt-col-text">
+                            <h2>KFC Restaurant</h2>
+                            <div class="flex">
+                                <i class="fa-solid fa-hourglass-start"></i>
+                                <a href="#">09.00 AM - 10.00 PM</a>
+                                <button>
+                                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaraunt-col">
+                        <img src="./image/restaraunt-col-6.png" alt="">
+                        <div class="restaraunt-col-text">
+                            <h2>Star Food</h2>
+                            <div class="flex">
+                                <i class="fa-solid fa-hourglass-start"></i>
+                                <a href="#">10.00 AM - 12.00 PM</a>
+                                <button>
+                                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile app -->
+        <div class="mobile">
+            <div class="container">
+                <div class="mobile-half">
+                    <div class="mobile-left">
+                        <h1>
+                            Download  Our <span>Mobile App</span>
+                        </h1>
+                        <p>It's all at your fingertips -- the restaurants you love. Find the right food to suit your mood, and make the first bite last. Go ahead, download app and get 50% discount</p>
+                        <div class="play-market">
+                            <img title="App Store" src="./image/ios.png" alt="">
+                            <img title="Google Play" src="./image/google_play.png" alt="">
+                        </div>
+                    </div>
+                    <div class="mobile-right">
+                        <img src="./image/mobile_app.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- client -->
+        <div class="client">
+            <div class="container">
+                <h1>
+                    What Our Client Are <span>Saying</span>
+                </h1>
+                <div class="client-half">
+                    <div class="client-left">
+                        <img src="./image/client.png" alt="">
+                    </div>
+                    <div class="client-right">
+                        <span class="start">“</span>
+                        <p>EFood has the most intriguing food order system in the country. UI in both their app and web Is very simple and easy to use, enhancing the UX. Their delivery men are also quite professional and knows the neighborhood well. Till now I never had to guide them to my address for delivery; </p>
+                        <span class="end">“</span>
+                        <h5>Anglina Jole</h5>
+                        <h6>Food lover</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- subscribe -->
+        <div class="container">
+            <div class="subscribe">
+                <h1>Subscribe to get the Latest Offer</h1>
+                <p>Get our daily updates by subscribing to our newspaper, please drop your email below</p>
+                <div class="input">
+                    <input type="email" required placeholder="Enter your email address">
+                    <button type="submit">
+                        <i class="fa-solid fa-location-arrow"></i>
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="footer-column">
+                    <div class="footer-col footer-col-1">
+                        <h2>
+                            <span>E</span>
+                            Food
+                        </h2>
+                        <div class="footer-col-icon">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <h6>Dhaka, Bangladesh</h6>
+                        </div>
+                        <div class="footer-col-icon">
+                            <i class="fa-solid fa-phone"></i>
+                            <h6>0943833399</h6>
+                        </div>
+                        <div class="footer-col-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                            <h6>support@efood.com</h6>
+                        </div>
+                        <div class="footer-col-icon-2">
+                            <i title="facebook" class="fa-brands fa-facebook-f"></i>
+                            <i title="twitter" class="fa-brands fa-twitter"></i>
+                            <i title="instagram" class="fa-brands fa-instagram"></i>
+                            <i title="pinterest" class="fa-brands fa-pinterest-p"></i>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Service</h1>
+                        <ul>
+                            <li title="How it works">
+                                <a href="#">How it works</a>
+                            </li>
+                            <li title="Home delivery">
+                                <a href="#">Home delivery</a>
+                            </li>
+                            <li title="Products">
+                                <a href="#">Products</a>
+                            </li>
+                            <li title="Menu">
+                                <a href="#">Menu</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Company</h1>
+                        <ul>
+                            <li title="About us">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li title="News">
+                                <a href="#">News</a>
+                            </li>
+                            <li title="Our trusted partner">
+                                <a href="#">Our trusted partner</a>
+                            </li>
+                            <li title="New users FAQ">
+                                <a href="#">New users FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Supports</h1>
+                        <ul>
+                            <li title="Help center">
+                                <a href="#">Help center</a>
+                            </li>
+                            <li title="Feedback">
+                                <a href="#">Feedback</a>
+                            </li>
+                            <li title="Contact us">
+                                <a href="#">Contact us</a>
+                            </li>
+                            <li title="Terms conditions">
+                                <a href="#">Terms conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Resources</h1>
+                        <ul>
+                            <li title="Download app">
+                                <a href="#">Download app</a>
+                            </li>
+                            <li title="Blog">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li title="What's new">
+                                <a href="#">What's new</a>
+                            </li>
+                            <li title="Site map">
+                                <a href="#">Site map</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <!-- footer 2 -->
+        <div class="footer-2">
+            <div class="container">
+                <div class="footer-half">
+                    <div class="footer-left">
+                        <p>© 2023 EFood - All rights reserved.</p>
+                    </div>
+                    <div class="footer-right">
+                        <ul>
+                            <li title="Privacy">
+                                <a href="#">Privacy</a>
+                            </li>
+                            <li title="Policy">
+                                <a href="#">Policy</a>
+                            </li>
+                            <li title="Terms">
+                                <a href="#">Terms</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- script -->
+        <script>
+            var load = document.getElementById("load");
+            window.addEventListener("load", function() {
+                load.style.display = "none";
+            });
+        </script>
+    </body>
+</html>
